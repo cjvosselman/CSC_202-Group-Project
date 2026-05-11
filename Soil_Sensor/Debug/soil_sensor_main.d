@@ -1,7 +1,6 @@
 # FIXED
 
-soil_sensor_main.o: ../soil_sensor_main.c ../LaunchPad.h ../adc.h \
- ../clock.h ../lcd1602.h \
+soil_sensor_main.o: ../soil_sensor_main.c ../LaunchPad.h ../clock.h \
  C:/ti/mspm0_sdk_2_04_00_06/source/ti/devices/msp/msp.h \
  C:/ti/mspm0_sdk_2_04_00_06/source/ti/devices/DeviceFamily.h \
  C:/ti/mspm0_sdk_2_04_00_06/source/ti/devices/msp/m0p/mspm0g350x.h \
@@ -31,11 +30,10 @@ soil_sensor_main.o: ../soil_sensor_main.c ../LaunchPad.h ../adc.h \
  C:/ti/mspm0_sdk_2_04_00_06/source/ti/devices/msp/peripherals/m0p/hw_cpuss.h \
  C:/ti/mspm0_sdk_2_04_00_06/source/ti/devices/msp/peripherals/m0p/hw_debugss.h \
  C:/ti/mspm0_sdk_2_04_00_06/source/ti/devices/msp/peripherals/m0p/hw_sysctl.h \
- C:/ti/mspm0_sdk_2_04_00_06/source/ti/devices/msp/peripherals/m0p/sysctl/hw_sysctl_mspm0g1x0x_g3x0x.h
+ C:/ti/mspm0_sdk_2_04_00_06/source/ti/devices/msp/peripherals/m0p/sysctl/hw_sysctl_mspm0g1x0x_g3x0x.h \
+ ../lcd1602.h ../adc.h
 ../LaunchPad.h:
-../adc.h:
 ../clock.h:
-../lcd1602.h:
 C:/ti/mspm0_sdk_2_04_00_06/source/ti/devices/msp/msp.h:
 C:/ti/mspm0_sdk_2_04_00_06/source/ti/devices/DeviceFamily.h:
 C:/ti/mspm0_sdk_2_04_00_06/source/ti/devices/msp/m0p/mspm0g350x.h:
@@ -66,3 +64,5 @@ C:/ti/mspm0_sdk_2_04_00_06/source/ti/devices/msp/peripherals/m0p/hw_cpuss.h:
 C:/ti/mspm0_sdk_2_04_00_06/source/ti/devices/msp/peripherals/m0p/hw_debugss.h:
 C:/ti/mspm0_sdk_2_04_00_06/source/ti/devices/msp/peripherals/m0p/hw_sysctl.h:
 C:/ti/mspm0_sdk_2_04_00_06/source/ti/devices/msp/peripherals/m0p/sysctl/hw_sysctl_mspm0g1x0x_g3x0x.h:
+../lcd1602.h:
+../adc.h:
